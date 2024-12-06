@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK STORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image"></div>
+    <div class="navabar">
+        <h1>BOOK STORE</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>RICH DAD POOR DAD</h2>
+            <hr>
+            <h5>ROBERT</h5>
+            <hr>
+            <p>The story begins with the author as a young boy, observing the contrasting financial mindsets and behaviors of his two dads. His poor dad,
+                 who held a high position in education, emphasized the importance of academic success,
+                 and living within one's means.</p>
+            <button onclick="erase(event)" id="vanish">DELETE</button>
+        </div>
+        <div class="image"></div>
+    </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>ADD BOOK</h2>
+        <form>
+            <input type="text" placeholder="Book Tittle" id="book-tittle-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="short description" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+    <button class="add-button" id="add-popup-btn">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
